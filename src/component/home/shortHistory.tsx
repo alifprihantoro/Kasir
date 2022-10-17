@@ -25,18 +25,21 @@ export default function ShortHistory(): ReactElement {
       {dummy.map((data) => {
         return (
           <div
-            className={`p-3 m-3 rounded-xl text-white ${
+            className={`p-3 m-3 rounded-xl text-white flex ${
               isPositive(data.type) ? 'bg-blue-900/80' : 'bg-red-900/80'
             }`}
           >
-            <h3>
-              {!isPositive(data.type) && '-'}Rp.{data.nominal}
-            </h3>
-            Kategory :
-            {data.kategory.map((data) => {
-              return <span>{data}</span>
-            })}
-            type : <span>{data.type}</span>
+            <div className=''>
+              <h3>
+                {!isPositive(data.type) && '-'}Rp.{data.nominal}
+              </h3>
+              Kategory :
+              {data.kategory.map((data) => {
+                return <span>{data}</span>
+              })}
+              type : <span>{data.type}</span>
+            </div>
+            <div className="ml-auto p-3 bg-green-600/60 rounded-xl uppercase">edit</div>
           </div>
         )
       })}
