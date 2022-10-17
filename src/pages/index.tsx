@@ -8,7 +8,7 @@ import Home from './home'
 export default function Pages():ReactElement {
   return (
     <>
-      <div className='w-[720px] m-auto'>
+      <div className='w-[720px] m-auto bg-blue-900/10 p-3'>
         <Home />
         {/* <Pay/> */}
         {/* <Credit/> */}

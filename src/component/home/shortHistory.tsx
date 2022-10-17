@@ -26,7 +26,7 @@ export default function ShortHistory(): ReactElement {
         return (
           <div
             className={`p-3 m-3 rounded-xl text-white ${
-              isPositive(data.type) ? 'bg-blue-900' : 'bg-red-900'
+              isPositive(data.type) ? 'bg-blue-900/80' : 'bg-red-900/80'
             }`}
           >
             <h3>

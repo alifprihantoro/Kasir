@@ -29,10 +29,10 @@ const datas = [
 export default function NavHome() {
   return (
     <nav>
-      <ul className='flex text-white'>
+      <ul className='flex flex-wrap text-blue-900'>
         {datas.map((data) => {
           return (
-            <li className='p-3 m-3 rounded-xl bg-blue-900'>
+            <li className='p-3 w-[29%] m-3 rounded-xl bg-white shadow-md'>
               <a href={'#' + data.text}>{data.text}</a>
             </li>
           )
