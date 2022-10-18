@@ -13,7 +13,7 @@ export default function Pages():ReactElement {
         <Home />
       {/* <DetailSaldo/> */}
       {/* <Pay/> */}
-        {/* <Out/> */}
+        <Out/>
         {/* <SyncPge/> */}
       </div>
     </>

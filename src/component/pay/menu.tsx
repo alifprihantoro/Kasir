@@ -23,8 +23,8 @@ export default function MenuPay() {
               </div>
             </div>
             <div className='ml-auto my-auto block text-white'>
-              <span className='p-3 m-3 w-fit rounded-xl bg-blue-900/80'>add</span>
-              <span className='p-3 m-3 w-fit rounded-xl bg-red-900/80'>delete</span>
+              <button className='p-3 m-3 w-fit rounded-xl bg-blue-900/80'>add</button>
+              <button className='p-3 m-3 w-fit rounded-xl bg-red-900/80'>delete</button>
             </div>
           </div>
         )
